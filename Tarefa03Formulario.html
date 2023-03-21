@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário da Kenzie</title>
+</head>
+<body>
+    <header>Formulário do incrível evento da Kenzie</header>
+<br>
+<form action="">
+    <label for="nome">Nome completo</label>
+    <input type="name" id="nome" name="nome do participante" required placeholder="Ex.:João Silvassauro"><br>
+
+    <label for="email">Seu melhor e-mail</label>
+    <input type="email" id="email" name="e-mail do participante" required placeholder="Ex.:joaoss@gmail.com"><br>
+<br>
+
+    <label for="motivo">Descreva abaixo o que o(a) motivou a participar do nosso evento!</label><br>
+    <textarea id="motivo" name="motivo da participação" cols="10" rows="5"></textarea>
+<br>
+    <label for="modulos">Módulo:</label>
+    <select name="modulos" id="modulos">
+    <option value="M1">M1</option>
+    <option value="M2">M2</option>
+    <option value="M3">M3</option>
+    <option value="M4">M4</option>
+    <option value="M5">M5</option>
+    </select>
+<br><br>
+    <label for="senha">Digite uma senha</label>
+    <input type="password" id="senha" name="senha do participante" placeholder="Sua senha marota aqui" required>
+<br>    
+    <label for="senha2">Confirme sua senha</label>
+    <input type="password" id="senha2" name="confirme a senha" placeholder="Confirme sua senha marota" required>
+<br><br>
+    <label for="">Deseja receber novidades por e-mail?</label>
+    <label for="sim">Sim!</label>
+    <input type="radio" id="sim" name="novidades" value="sim">
+    <label for="nao">Melhor não...</label>
+    <input type="radio" id="nao" name="novidades" value="nao">
+<br><br>
+    <button type="submit">Enviar dados</button>
+</form>
+
+</body>
+</html>
